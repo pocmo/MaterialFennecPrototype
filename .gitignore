@@ -1,3 +1,9 @@
+# IntelliJ
+*.iml
+
+# MacOS X
+.DS_Store
+
 # Built application files
 *.apk
 *.ap_

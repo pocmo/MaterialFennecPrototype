@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#363b40</item>
+        <item name="colorPrimaryDark">#2b2f33</item>
+        <item name="colorAccent">#ff9400</item>
+        <item name="colorControlHighlight">#ffffff</item>
+    </style>
+
+    <style name="SlidingTabsLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#ff9400</item>
+        <item name="tabTextAppearance">@style/FennecTabs</item>
+        <item name="tabSelectedTextColor">#ffffff</item>
+    </style>
+
+    <style name="FennecTabs" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#b4b6b8</item>
+    </style>
+
+</resources>

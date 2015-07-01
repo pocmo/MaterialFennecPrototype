@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.mozilla.materialfennec.SquaredLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless">
+
+    <TextView
+        android:layout_alignParentEnd="true"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:textSize="12sp"
+        android:padding="8dp"
+        android:background="#32000000"
+        android:layout_gravity="center_horizontal" />
+
+</org.mozilla.materialfennec.SquaredLayout>
